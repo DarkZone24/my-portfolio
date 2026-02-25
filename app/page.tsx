@@ -27,11 +27,11 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "Inventory Management System",
+      title: "Inventory Monitoring System",
       image: "https://images.unsplash.com/photo-1553413077-190dd305871c?w=800&h=600&fit=crop",
-      description: "A web-based application designed to help businesses efficiently manage their stock, sales, and suppliers. It provides real-time tracking of product quantities, automates stock level monitoring, and streamlines reporting for better decision-making.",
-      demoUrl: "#",
-      sourceUrl: "https://github.com/DarkZone24/inventory_management_system"
+      description: "A web-based application that design to monitor supplies such as electronics, sports, school supplies, etc. Also it monitors the barrowers and the items that are barrowed.",
+      demoUrl: "https://inventory-monitoring-system.vercel.app/",
+      sourceUrl: "https://github.com/DarkZone24/inventory-monitoring-system"
     },
     {
       title: "Mobile Collector System",
@@ -330,7 +330,7 @@ export default function Portfolio() {
                   className="flex flex-col xs:flex-row gap-4 sm:gap-6 justify-center lg:justify-start px-4 xs:px-0"
                 >
                   <motion.a
-                    href="/documents/Mark_Alexis_Macarilay_Resume_Final (1).pdf"
+                    href="/documents/Mark Alexis Macarilay-CV (1).docx"
                     download
                     whileHover={{ y: -3, boxShadow: "0px 10px 25px rgba(79, 70, 229, 0.3)" }}
                     whileTap={{ scale: 0.98 }}
